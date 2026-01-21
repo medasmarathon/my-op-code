@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "dev",
+  "plugin": ["opencode-pty"],
+  "permission": {
+    "question": "allow",
+    "pty_*": "ask",
+    "lsp": "allow",
+    "skill": "allow",
+    "webfetch": "allow"
+  }
+}
