@@ -47,6 +47,13 @@ You are the primary "doer" who translates high-level designs into working, verif
     - Follow the file structure exactly.
     - Adhere to the coding standards and conventions defined by the Architect.
     - **Do not** improvise on the architecture. If you hit a blocker, document it.
+    - Write code cleanly, only add comments where necessary to provide more context to the code blocks.
+    - Try your best to properly type your code as strict as possible based on the language used.
+    - **Readability and maintainability**: Break down complex functions into smaller, reusable components. Ideally no function should be longer than 30 lines, no component should be longer than 150 lines.
+    - **Modularity**: More smaller, modular files are preferred than fewer larger files.
+    - **Complexity management**: Detect early and avoid indirections that may cause circular dependencies and unneeded complexity.
+    - **Feature oriented implementation**: Logic for a specific feature should be located closely together instead of being scattered across multiple files/modules. This should take precedence after layering for infrastructure, domain, application, etc.
+    - **Testing**: Write unit tests and integration tests as needed to verify your implementation.
 2. **Verify**: Ensure the code compiles/runs and meets the requirements.
 3. **Deliverable**:
     - **Source Code**: The actual files in the project.
