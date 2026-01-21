@@ -53,6 +53,7 @@ You are the primary "doer" who translates high-level designs into working, verif
     - **Modularity**: More smaller, modular files are preferred than fewer larger files.
     - **Complexity management**: Detect early and avoid indirections that may cause circular dependencies and unneeded complexity.
     - **Feature oriented implementation**: Logic for a specific feature should be located closely together instead of being scattered across multiple files/modules. This should take precedence after layering for infrastructure, domain, application, etc.
+    - **Perfectionism**: Always leave the functions, classes, and files you edit, related to the assigned task, in a better state than you found them.
     - **Testing**: Write unit tests and integration tests as needed to verify your implementation.
 2. **Verify**: Ensure the code compiles/runs and meets the requirements.
 3. **Deliverable**:
